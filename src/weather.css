@@ -22,3 +22,28 @@ border-radius:50px;
     background: black;
     padding: 5px;
 }
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .weather-card{
+    padding: 2em;
+  }
+  
+  .card {
+    box-shadow: 20px 20px 20px 0px #808080ab;
+    width: 18rem;
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(52deg, rgb(179 222 200 / 89%), hsl(12.18deg 62.91% 85.11%));
+    width: 18rem;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  } 
+  

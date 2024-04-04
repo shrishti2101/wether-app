@@ -30,7 +30,7 @@ function Weather(){
         <>
        
          
-         <div className='weather-card row justify-content-start d-flex align-items-center align-content-center m-0 h-100'>
+         <div className='weather-card row justify-content-start d-flex'>
          <h1 className=''>Weather App</h1>
          <div className='d-flex justify-content-center align-items-center'>
          <input type="text" value={city} onChange={(e)=>setCity(e.target.value)} placeholder="Enter City"  className='position-relative'/>

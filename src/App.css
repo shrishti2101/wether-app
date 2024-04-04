@@ -10,5 +10,15 @@
 }
 
 .card {
-  padding: 0.5em;
+  adding: 0.5em; */
+  box-shadow: 20px 20px 20px 0px #808080ab;
+  width: 18rem;
+  margin: 0 auto;
+  display: flex;
+  background: linear-gradient(52deg, rgb(179 222 200 / 89%), hsl(12.18deg 62.91% 85.11%));
+  width: 18rem;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 } 

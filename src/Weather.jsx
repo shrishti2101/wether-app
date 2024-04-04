@@ -41,8 +41,8 @@ search
          <h1>{city}</h1>
          {weather && weather.list && weather.list.slice(0,5).map((day, index) => (  
             
-    <div className='card mt-3 col-md-6 col-lg-3 bg-danger' width="150px" key={index}>
-    <img src={"https://openweathermap.org/img/wn/"+day.weather[0].icon+"@2x.png"} alt="" />
+    <div className='card mt-3 col-md-6 col-lg-3' key={index}>
+    <img src={"https://openweathermap.org/img/wn/"+day.weather[0].icon+"@2x.png"} alt=""  className='img-fluid'/>
     <p>{day.dt_txt}</p>
     <p>Humidity: {day.main.humidity} %</p>
     <p>Temperature: {day.main.temp}</p>

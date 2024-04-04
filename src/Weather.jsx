@@ -1,7 +1,6 @@
 import 'react'
 import { useEffect, useState } from "react";
 import './weather.css' 
-// import './tailwind.css'
 function Weather(){
     const [city,setCity]=useState("");
     const [isLoading, setIsLoading] = useState(false);
@@ -42,7 +41,8 @@ search
          <h1>{city}</h1>
          {weather && weather.list && weather.list.slice(0,5).map((day, index) => (  
             
-    <div className='card mt-3 col-md-6 col-lg-3' width="150px" key={index}>
+    <div className='card mt-3 col-md-6 col-lg-3 bg-danger' width="150px" key={index}>
+    <img src={"https://openweathermap.org/img/wn/"+day.weather[0].icon+"@2x.png"} alt="" />
     <p>{day.dt_txt}</p>
     <p>Humidity: {day.main.humidity} %</p>
     <p>Temperature: {day.main.temp}</p>

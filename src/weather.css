@@ -1,3 +1,15 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
 body{
     height: 100%;
     background: skyblue;
@@ -23,13 +35,6 @@ border-radius:50px;
     padding: 5px;
 }
 
-#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-  }
-  
   .weather-card{
     padding: 2em;
   }
